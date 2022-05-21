@@ -6,18 +6,28 @@ footer {
     color: #F9FAF8;
 }
 
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* NAVBAR */
+
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 24px;
     padding: 20px;
+    width: 100%;
 }
 
 .link-list ul {
@@ -37,6 +47,14 @@ nav {
 
 }
 
+/* SECTION 1 */
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .section-1 h1 {
     font-size: 48px;
     font-weight: bolder;
@@ -46,4 +64,9 @@ nav {
 .section-1 p {
     font-size: 24px;
     color: #E5E7EB;
+}
+
+.hero-img img {
+    width: 400px;
+    height: auto;
 }
