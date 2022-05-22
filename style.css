@@ -29,10 +29,11 @@ p {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 24px;
-    padding: 20px;
+    padding: 20px 10px;
     width: 100%;
+    border: 1px red solid;
 
 }
 
@@ -59,6 +60,13 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px red solid;
+
+}
+
+.container {
+    border: 1px red solid;
+
 }
 
 .section-1 {
@@ -68,6 +76,8 @@ nav {
     margin: 100px auto 100px auto;
     gap: 30px;
     padding: 10px;
+    border: 1px red solid;
+
 }
 
 .section-1 h1 {
