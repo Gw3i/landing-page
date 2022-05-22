@@ -21,6 +21,7 @@ p {
     border: none;
     color: #E5E7EB;
     background-color: #2883F6;
+    font-weight: bold;
 }
 
 /* NAVBAR */
@@ -55,6 +56,9 @@ nav {
 /* SECTION 1 */
 .hero {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-1 {
@@ -63,7 +67,7 @@ nav {
     justify-content: space-around;
     max-width: 1200px;
     background-color: #1f2937;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
 }
 
 .section-1 h1 {
@@ -76,14 +80,17 @@ nav {
     color: #E5E7EB;
 }
 
-.hero-img img {
-    width: 300px;
-    height: auto;
+.hero-text {
+    width: 400px;
 }
 
-.hero-text,
 .hero-img {
-    width: 50%;
+    background-color: grey;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-btn {
@@ -178,5 +185,4 @@ nav {
 
 .action-btn {
     border: 2px #E5E7EB solid;
-    font-weight: bold;
 }
