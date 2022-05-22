@@ -189,3 +189,12 @@ nav {
 .action-btn {
     border: 2px #E5E7EB solid;
 }
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
