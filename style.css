@@ -15,6 +15,14 @@ p {
     font-size: 18px;
 }
 
+.btn {
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    color: #E5E7EB;
+    background-color: #2883F6;
+}
+
 /* NAVBAR */
 
 nav {
@@ -78,6 +86,9 @@ nav {
     width: 50%;
 }
 
+.hero-btn {
+    margin-top: 15px;
+}
 
 /* SECTION 2 BOXES*/
 .section-2 {
@@ -163,4 +174,8 @@ nav {
     justify-content: space-evenly;
     align-items: center;
 
+}
+
+.action-btn {
+    border: 2px #E5E7EB solid;
 }
