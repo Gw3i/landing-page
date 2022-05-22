@@ -63,11 +63,11 @@ nav {
 
 .section-1 {
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    max-width: 1200px;
     background-color: #1f2937;
     margin: 100px auto 100px auto;
+    gap: 30px;
+    padding: 10px;
 }
 
 .section-1 h1 {
@@ -81,13 +81,13 @@ nav {
 }
 
 .hero-text {
-    width: 400px;
+    width: 50%;
 }
 
 .hero-img {
     background-color: grey;
-    width: 500px;
-    height: 200px;
+    width: 50%;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,6 +114,7 @@ nav {
     justify-content: center;
     gap: 40px;
     margin: 50px auto;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -140,6 +141,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .quote {
@@ -170,6 +172,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .action-box {
