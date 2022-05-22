@@ -9,6 +9,7 @@ footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -16,7 +17,7 @@ p {
 }
 
 .btn {
-    padding: 5px 30px;
+    padding: 10px 30px;
     border-radius: 5px;
     border: none;
     color: #E5E7EB;
@@ -33,8 +34,11 @@ nav {
     font-size: 24px;
     padding: 20px 10px;
     width: 100%;
-    border: 1px red solid;
+}
 
+nav h2 {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .link-list ul {
@@ -50,7 +54,8 @@ nav {
 
 .link-list li {
     list-style-type: none;
-    color: #F9FAF8;
+    font-size: 18px;
+    color: #E5E7EB;
 
 }
 
@@ -60,13 +65,6 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px red solid;
-
-}
-
-.container {
-    border: 1px red solid;
-
 }
 
 .section-1 {
@@ -74,16 +72,15 @@ nav {
     justify-content: space-around;
     background-color: #1f2937;
     margin: 100px auto 100px auto;
-    gap: 30px;
+    gap: 50px;
     padding: 10px;
-    border: 1px red solid;
-
 }
 
 .section-1 h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     margin: 0;
+    color: #F9FAF8;
 }
 
 .section-1 p {
@@ -91,12 +88,16 @@ nav {
 }
 
 .hero-text {
-    width: 50%;
+    width: 500px;
+}
+
+.hero-text p {
+    margin: 10px 0;
 }
 
 .hero-img {
     background-color: grey;
-    width: 50%;
+    width: 500px;
     height: 250px;
     display: flex;
     justify-content: center;
@@ -134,13 +135,14 @@ nav {
 .box p {
     text-align: center;
     margin-top: 5px;
+    color: #1f2937;
 }
 
 .rounded-box {
     width: 150px;
     height: 150px;
     border: 3px #2883F6 solid;
-    border-radius: 7px;
+    border-radius: 15px;
 }
 
 /* SECTION 3 BLOCKQUOTE */
@@ -172,6 +174,7 @@ nav {
     font-weight: bold;
     font-style: normal;
     font-size: 24px;
+    margin-top: 10px;
 }
 
 
